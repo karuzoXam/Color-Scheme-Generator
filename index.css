@@ -1,0 +1,82 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 5.625em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 1em;    
+}
+
+input {
+    height:  2.625em;
+    width: 3.812em;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    width: 19.5em;
+    height:  2.625em;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    padding: 1em;
+    /* width: 7.687em; */
+    /* height: 2.625em; */
+}
+
+.color-container {
+    height: 25em;
+    display: flex;
+}
+
+.color-box {
+    width: 6.875em;
+}
+
+.box-1 { background-color: tan; }
+
+.box-2 { background-color: tomato; }
+
+.box-3 { background-color: beige; }
+
+.box-4 { background-color: hotpink; }
+
+.box-5 { background-color: black; }
+
+.hex-code-container {
+    display: flex;
+    height: 3.75em;
+}
+
+.hex-code {
+    width: 6.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* utility */
+
+.container {
+    margin: 0 auto;
+    width: 34.375em;
+    height: 34.375em;
+    background-color: lavender;
+    
+}
