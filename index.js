@@ -26,7 +26,6 @@ const getColors = function () {
         const mode = document.getElementById('select-option').value;
 
         fetchColors(colorValue, mode)
-        form.reset();
     })
 }
 
